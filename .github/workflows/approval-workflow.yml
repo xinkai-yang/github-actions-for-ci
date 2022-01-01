@@ -1,7 +1,5 @@
 name: approval-flow
 on: pull_request_review
 jobs:
-  build:
+  labelWhenApproved:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
