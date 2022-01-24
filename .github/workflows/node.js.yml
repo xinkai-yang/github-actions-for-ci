@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
-    #paths:
-    #  - '/**'
+    #branches: [ main ]
+    paths:
+      - '*/**'
       #- '!/__test__/**'
     #paths-ignore:
     #  - '/__test__'
