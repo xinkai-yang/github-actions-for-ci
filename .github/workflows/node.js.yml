@@ -11,7 +11,6 @@ on:
       - '!/__test__'
     #paths-ignore:
     #  - '/__test__'
-    
   pull_request:
     branches: [ main ]
 
