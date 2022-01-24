@@ -8,8 +8,9 @@ on:
     #branches: [ main ]
     paths:
       - '/'
-    paths-ignore:
-      - '/__test__'
+      - '!/__test__'
+    #paths-ignore:
+    #  - '/__test__'
     
   pull_request:
     branches: [ main ]
